@@ -56,28 +56,29 @@ h1 {
 .row {
     width: 100%;
     padding: 10px 10px 10px 10px;
-    margin: auto;
+    margin: 0 auto;
+    position: absolute;
 }
 
 .section1 {
     border: 1px solid black;
     position: relative;
     margin: 10px;
-    background-color: #f1e3fb;
+    background-color: lightpink;
 }
 
 .section2 {
     border: 1px solid black;
     position: relative;
     margin: 10px;
-    background-color: #ffdada;
+    background-color: lightyellow;
 }
 
 .section3 {
     border: 1px solid black;
     position: relative;
     margin: 10px;
-    background-color: #ebffef;
+    background-color: springgreen;
 }
 
 p {
