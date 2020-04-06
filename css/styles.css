@@ -11,56 +11,74 @@ body {
 h1 {
     color: black;
     text-align: center;
+    margin-bottom: 35px;
+}
+
+.title1 {
+    border: 1px solid black;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-top: 0;
+    background-color: aqua;
+}
+
+.title2 {
+    border: 1px solid black;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-top: 0;
+    background-color: seagreen;
+}
+
+.title3 {
+    border: 1px solid black;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-top: 0;
+    background-color: palevioletred;
+}
+.description{
+    padding: 45px 10px 5px 10px;
 }
 
 .row {
-    margin: auto;
+    width: 100%;
+    padding: 0 10px 0 10px;
 }
 
-/* Setting border 1px as per requirement*/
-.item { 
-    border: 1px solid #000;
-    margin: 1.5%;
-}
-
-/* Setting border 1px as per requirement*/
-.item h3 {
-    text-align: center;
-    width: 150px;
-    margin: 0;
-    float: right;
-    border: 1px solid #000;
+div.section1 {
+    border: 1px solid black;
     position: relative;
-    left: 2px;
-    top: -2px;
-    padding: 1%;
-}
-
-.item:nth-child(1) h1{
-    background-color: #601de4;
-    color: #9cffa4;
-}
-.item:nth-child(2) h1{
-    background-color: #940000;
-    color: #fff134;
-}
-.item:nth-child(3) h1{
-    background-color: #078020;
-    color: #fff;
-}
-
-/* Section Color Background */
-.item:nth-child(1){
+    margin: 10px;
     background-color: #f1e3fb;
 }
-.item:nth-child(2){
+
+div.section2 {
+    border: 1px solid black;
+    position: relative;
+    margin: 10px;
     background-color: #ffdada;
 }
-.item:nth-child(3){
+
+div.section3 {
+    border: 1px solid black;
+    position: relative;
+    margin: 10px;
     background-color: #ebffef;
 }
 
-/* Item Content */
 p {
     padding: 10px;
     clear: both;
@@ -71,22 +89,11 @@ p {
     margin-right: 2px;
 }
 
-.title1 {
-    background-color: aqua;
-}
-
-.title2 {
-    background-color: seagreen;
-}
-
-.title3 {
-    background-color: palevioletred;
-}
 /* Large devices */
 @media (min-width: 992px) {
   .col-lg-4 {
     float: left;
-    width: 30%;
+    width: 33%;
   }
 }
 
@@ -94,7 +101,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     float: left;
-    width: 47%;
+    width: 50%;
   }
   .col-md-12 {
     clear: both;
