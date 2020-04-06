@@ -14,7 +14,7 @@ h1 {
     margin-bottom: 35px;
 }
 
-.title1 {
+#chicken {
     border: 1px solid black;
     font-weight: bold;
     position: absolute;
@@ -26,7 +26,7 @@ h1 {
     background-color: aqua;
 }
 
-.title2 {
+#beef {
     border: 1px solid black;
     font-weight: bold;
     position: absolute;
@@ -38,7 +38,7 @@ h1 {
     background-color: seagreen;
 }
 
-.title3 {
+#seafood {
     border: 1px solid black;
     font-weight: bold;
     position: absolute;
@@ -58,21 +58,21 @@ h1 {
     padding: 0 10px 0 10px;
 }
 
-div.section1 {
+.section1 {
     border: 1px solid black;
     position: relative;
     margin: 10px;
     background-color: #f1e3fb;
 }
 
-div.section2 {
+.section2 {
     border: 1px solid black;
     position: relative;
     margin: 10px;
     background-color: #ffdada;
 }
 
-div.section3 {
+.section3 {
     border: 1px solid black;
     position: relative;
     margin: 10px;
